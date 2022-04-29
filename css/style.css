@@ -78,32 +78,41 @@ footer {
 .blocks {
   padding: 3rem 0;
 }
-.blocks h2 {
+.blocks__title {
   color: #192a56;
 }
-.blocks ul {
+.blocks__list {
   list-style-type: none;
   font-size: 1.5rem;
-  display: flex;
-  justify-content: space-between;
+  float: left;
+  display: block;
+  justify-content: center;
   height: 250px;
   padding: 1rem 0;
   width: 100%;
 }
-.blocks li {
+.blocks__item {
   color: #487eb0;
   display: block;
   margin: 1.5rem auto;
   width: 30%;
 }
-.blocks li .img-container {
+.blocks__img-container {
   display: block;
   height: 200px;
   overflow: hidden;
   width: 100%;
 }
-.blocks li a {
-  background-color: #192a56;
+.blocks__description {
+  color: 1.5rem;
+  font-size: 1.9rem;
+  padding: 1.5rem;
+}
+.blocks__description--destack {
+  color: #487eb0;
+}
+.blocks__button {
+  background-color: #487eb0;
   border-radius: 5px;
   color: white;
   display: block;
@@ -114,40 +123,28 @@ footer {
   text-decoration: none;
 }
 
-.cars h2 {
-  color: #487eb0;
-}
-.cars li {
-  color: #353b48;
-}
-.cars li a {
-  background-color: #444;
-}
-
 .destack {
-  display: block;
   background-color: #353b48;
   padding: 1.5rem;
 }
-.destack h1 {
-  font-family: Arial, Helvetica, sans-serif;
+.destack__title {
   color: #00a8ff;
   float: left;
   font-size: 3.3rem;
   margin-top: 0;
 }
-.destack h2 {
+.destack__subtitle {
   float: left;
   font-size: 1.5rem;
   margin-left: 1.5rem;
   margin-top: 1.5rem;
 }
-.destack img {
+.destack__image {
   width: 100%;
   height: auto;
   margin: 1.5rem auto;
 }
-.destack p {
+.destack__description {
   font-size: 1.9rem;
   color: #ddd;
   padding: 2rem 0;
